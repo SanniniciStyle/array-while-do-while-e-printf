@@ -15,12 +15,14 @@ int main(int argc, char *argv[])
 {
     int i, s, n, nu[1000], me;
     
+    s=0;
+    
     do
     {
         printf("Quanti numer vuoi inserire ?");
         scanf("%d", &n);
     }
-    while(n!=0);
+    while(n<=0);
     
     i=0;
     while(i<n)
@@ -31,14 +33,14 @@ int main(int argc, char *argv[])
         i++;
     }
         
-    printf("La somma e' : %d", s);
+    printf("La somma e' : %d\n", s);
     me=s/n;
-    printf("La media e' : %d", me);
+    printf("La media e' : %d\n", me);
     
     i=0;
     while(i<n)
     {
-        printf("L'array e': %d", n);
+        printf("L'array e': %d\n", n);
         i++;
     }
     
