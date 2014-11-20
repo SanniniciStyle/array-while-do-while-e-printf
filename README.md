@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     
     do
     {
-        printf("Quanti numer vuoi inserire ?");
+        printf("Quanti numeri vuoi inserire ?");
         scanf("%d", &n);
     }
     while(n<=0);
